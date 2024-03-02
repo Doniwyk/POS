@@ -37,7 +37,7 @@ Route
 ```php
 Route::get('/', [HomeController::class, 'home']);
 ```
-Home Page
+Home Page\
 ![Home Page](1.png)
 ### Product Page
 Views
@@ -129,13 +129,13 @@ Route::prefix('category')->group(function () {
     Route::get('/{category}', [CategoryController::class, 'show'])->name('categories.show');
 });
 ```
-* Food Beverage Page
+* Food Beverage Page\
 ![Food-beverage page](2.png)
 * Beauty Health Page\
 ![Beauty-health page](3.png)
 * Home Care Page\
 ![Home-care page](4.png)
-* Baby Kid Page
+* Baby Kid Page\
 ![Baby-kid page](5.png)
 ### User Page
 Views
@@ -177,7 +177,7 @@ Route
 ```php
 Route::get('user/{id}/name/{name}', [UserController::class, 'user']);
 ```
-User Page
+User Page\
 ![User page](6.png)
 ### Sales Page
 View
@@ -215,5 +215,5 @@ Route
 ```php
 Route::get('/sales', [SalesController::class, 'sales']);
 ```
-Sales Page
+Sales Page\
 ![sales page](7.png)
